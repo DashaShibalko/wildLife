@@ -1,0 +1,357 @@
+.background{
+  position: relative;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.contanier {
+  width: 1440px;
+  margin: 0 auto;
+
+  box-sizing: border-box;
+  color: #f7f7f7;
+  padding:0 120px;
+}
+.hero {
+  background-image: url(./assests/Rectangle.png);
+  background-size: cover;
+  background-position: center;
+
+  height: 780px;
+  background-color: #02160b
+}
+.header {
+    
+  height: 60px;
+  padding: 19px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  color:#F7F7F7
+}
+.logo a:visited {
+  color: #f7f7f7;
+}
+.logo a:active {
+  color: #f7f7f7;
+}
+.logo {
+  display: flex;
+  padding-right: 14px;
+  text-decoration: none;
+}
+.logo img {
+  
+  width: 70px;
+  height: 60px;
+}
+.logo h1 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+.logo:hover{
+  opacity: 0.5;
+}
+.navigation {
+  height: 79px;
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+  color: #F7F7F7;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 60px;
+}
+.navigation a {
+  text-decoration: none;
+  color:#F7F7F7
+}
+.navigation a:hover{
+  opacity: 0.5;
+}
+.navigation a:visited {
+  color: #f7f7f7;
+}
+.navigation a:active {
+  color: #f7f7f7;
+}
+.navigation button {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+  font-size: 23px;
+line-height: 27px;
+  background-color: transparent;
+  color: #f7f7f7;
+  padding: 0px;
+  border: 2px solid #cd6326;
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+}
+.navigation button:hover{
+  background-color: #cd6326;
+}
+.navigation button:active{
+  background-color: #8F5613;
+}
+
+.survival {
+  padding-top: 100px;
+  width: 274px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+.survival h2 {
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  color: #cd6326;
+}
+.survival p {
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 51px;
+  text-align: justify;
+  padding-bottom:50px ;
+}
+.survival button {
+  width: 160px;
+  height: 60px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  color: #f7f7f7;
+  background-color: #cd6326;
+  border-radius: 5px;
+  border: 1px;
+}
+.survival button:hover{
+  background-color:#E39128;
+}
+.survival button:active{
+  background-color: #8F5613;
+}
+
+
+.main{
+  box-sizing: border-box;
+    background-color: #CCC;
+    padding: 120px 0 239px;
+    height: 1368px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    
+}
+
+.latestArticles{
+  margin-bottom:239px;
+}
+.latestArticles h2{
+    font-size: 48px;
+    line-height: 72px;
+    color:#333;
+    text-align: center;
+}
+
+.latestArticles p{
+    padding-top:20px;
+    padding-bottom: 120px;
+    font-size: 24px;
+    line-height: 36px;
+    color:#666;
+    text-align: center;
+}
+.slides{
+    color:#f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.slider{
+    
+    align-self: center;
+    cursor: pointer;
+    
+}
+.slider:hover{
+  opacity: 0.6;
+}
+.slide{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    color:#f7f7f7;
+}
+.slide h4{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    position:absolute;
+    bottom:77px;
+    font-size: 22px;
+    line-height: 36px;
+}
+.deer h4{
+  left:124px;
+}
+.squirrel h4{
+  left:109px;
+}
+.bird h4{
+  left:129px;
+}
+.slide p{
+    color:#F7F7F7;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    position:absolute;
+    width: 100%;
+    text-align: center;
+    top:273px;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+
+
+.notifications{
+    text-align: center;
+}
+.notifications h3{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    color:#333;
+    text-align: center;
+    padding-bottom: 59px;
+}
+.notifications input{
+  box-sizing: border-box;
+    height: 60px;
+    
+}
+
+.email{
+  width: 540px;
+  height: 60px;
+  background-color: #CCC;
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  color: #666666;
+  padding: 0 15px;
+  border:1px solid #666;
+  border-right:none;
+  
+}
+.buttonSend{
+  color:#f7f7f7;
+  width: 120px;
+  height: 60px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color:#cd6326;
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  border:none;
+
+}
+.buttonSend:hover{
+  background-color: #E39128;
+}
+.buttonSend:active{
+  background-color: #8F5613;
+}
+
+
+.footer{
+  background-color: #181617;
+  background-image: url(./assests/footer.jpg);
+  height: 359px;
+  
+}
+.footer_part{
+  display: flex;
+  justify-content: space-between;
+  height: 359px;
+  align-items: center;
+}
+
+.footer_part a:visited {
+  color: #f7f7f7;
+}
+.footer_part a:active {
+  color: #f7f7f7;
+}
+.foot{
+  align-items: center;
+}
+.links{
+  display: flex;
+  align-items: center;
+  
+  
+}
+.links li a{
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: left;
+  
+}
+.facebook{
+  background-image: url(./assests/Frame.svg) ;
+  background-repeat: no-repeat;
+  color: #fff; 
+  width: 40px; 
+  height: 40px;
+  margin-right: 27px;
+}
+.instagram{
+  background-image: url(./assests/Frame\ \(1\).svg) ;
+  background-repeat: no-repeat;
+  color: #fff; 
+  width: 40px; 
+  height: 40px;
+  margin-right: 24px;
+}
+.pinterest{
+  background-image: url(./assests/Frame\ \(2\).svg) ;
+  background-repeat: no-repeat;
+  color: #fff; 
+  width: 45px; 
+  height: 40px;
+  margin-right: 27px;
+}
+.telegram{
+  background-image: url(./assests/Frame\ \(3\).svg) ;
+  background-repeat: no-repeat;
+  color: #fff; 
+  width: 40px; 
+  height: 40px;
+}
