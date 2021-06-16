@@ -1,4 +1,4 @@
 # WildLife
 
-[GO TO WilgLife](https://dashashibalko.github.io/wildLife/)
+[GO TO WildLife](https://dashashibalko.github.io/wildLife/)
 
